@@ -26,11 +26,16 @@ public class Player : MonoBehaviour
 
 
     private float moveInput; //если 1 двигаемся вправо, если -1 влево
+
+    private int playerObject;
+    private int platformObject;
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         sr=GetComponent<SpriteRenderer>();
         extraJumps = extraJumpsValue;
+        playerObject = LayerMask.NameToLayer("Player");
+        platformObject = LayerMask.NameToLayer("Platform");
     }
 
     // Update is called once per frame
@@ -41,6 +46,11 @@ public class Player : MonoBehaviour
         Use();
         
 
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            Physics2D.IgnoreLayerCollision(playerObject, platformObject, true);
+            Invoke("IgnoreLayerOff", 0.5f);
+        }
 
     }
 
@@ -87,5 +97,9 @@ public class Player : MonoBehaviour
         if (useZone == null)
             return;
         Gizmos.DrawWireSphere(useZone.position, useZoneRange);
+    }
+    void IgnoreLayerOff()
+    {
+        Physics2D.IgnoreLayerCollision(playerObject, platformObject, false);
     }
 }
