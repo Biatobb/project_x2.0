@@ -22391,7 +22391,7 @@ MonoBehaviour:
     m_Bits: 1
   groundCheckRadius: 0.33
   extraJumpsValue: 1
-  speed: 10
+  speed: 1
   jumpForce: 10
 --- !u!1 &631936476
 GameObject:
