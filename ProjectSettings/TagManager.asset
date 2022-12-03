@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tiles_main
+    uniqueID: 3618806117
+    locked: 0
+  - name: Decoration_objects
+    uniqueID: 2155725181
+    locked: 0
+  - name: Tiles_back
+    uniqueID: 4197874561
+    locked: 0
