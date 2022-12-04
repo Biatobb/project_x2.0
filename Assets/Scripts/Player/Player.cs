@@ -74,6 +74,10 @@ public class Player : MonoBehaviour
         sr.flipX = moveInput < 0 ? true : false;
         rb.velocity= new Vector2((speed * moveInput), rb.velocity.y);
         }
+        else
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
     }
 
     void Jump()
