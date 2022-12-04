@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private Animator animator;
 
     [SerializeField] private Transform useZone;
     [SerializeField] private float useZoneRange;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
         extraJumps = extraJumpsValue;
         playerObject = LayerMask.NameToLayer("Player");
         platformObject = LayerMask.NameToLayer("Platform");
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,9 +46,9 @@ public class Player : MonoBehaviour
         Move();
         Jump();
         Use();
-        
 
-        if(Input.GetKeyDown(KeyCode.S))
+
+        if (Input.GetKeyDown(KeyCode.S))
         {
             Physics2D.IgnoreLayerCollision(playerObject, platformObject, true);
             Invoke("IgnoreLayerOff", 0.5f);
@@ -71,18 +73,22 @@ public class Player : MonoBehaviour
         moveInput = Input.GetAxis("Horizontal");
         if(moveInput != 0)
         { 
-        sr.flipX = moveInput < 0 ? true : false;
-        rb.velocity= new Vector2((speed * moveInput), rb.velocity.y);
+            sr.flipX = moveInput < 0 ? true : false;
+            rb.velocity = new Vector2((speed * moveInput), rb.velocity.y);
+            animator.SetBool("isRun", true);
+            Debug.Log(animator.GetBool("isRun"));
         }
         else
         {
             rb.velocity = new Vector2(0, rb.velocity.y);
+            animator.SetBool("isRun", false);
         }
     }
 
     void Jump()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        animator.SetBool("isGround", isGrounded);
 
         if (Input.GetButtonDown("Jump") && (extraJumps > 0 || isGrounded == true))
         {
@@ -98,9 +104,9 @@ public class Player : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        if (useZone == null)
+        if (groundCheck == null)
             return;
-        Gizmos.DrawWireSphere(useZone.position, useZoneRange);
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
     void IgnoreLayerOff()
     {
