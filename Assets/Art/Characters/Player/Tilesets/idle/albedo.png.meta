@@ -3,149 +3,152 @@ guid: 6507a3c97d0d38a4db3e42cd3268cefe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793639957104055765
-    second: idle_0
+      213: -5062943152077355963
+    second: albedo_0
   - first:
-      213: 6084859605308855041
-    second: idle_1
+      213: -1656650106971934939
+    second: albedo_1
   - first:
-      213: 8603369663158992956
-    second: idle_2
+      213: 7483890032381497290
+    second: albedo_2
   - first:
-      213: -5906421172241655209
-    second: idle_3
+      213: -8356916904043598240
+    second: albedo_3
   - first:
-      213: 5704420531145803721
-    second: idle_4
+      213: -6825517716589918537
+    second: albedo_4
   - first:
-      213: -148617073940163930
-    second: idle_5
+      213: -5390996852529573690
+    second: albedo_5
   - first:
-      213: 4729606205655721961
-    second: idle_6
+      213: 1489162016159595374
+    second: albedo_6
   - first:
-      213: -2073685336235588006
-    second: idle_7
+      213: 5983800179556272714
+    second: albedo_7
   - first:
-      213: 512795395688303107
-    second: idle_8
+      213: 5228251376138067654
+    second: albedo_8
   - first:
-      213: 5667770778836351527
-    second: idle_9
+      213: -3035583900793125588
+    second: albedo_9
   - first:
-      213: -1480364998338425778
-    second: idle_10
+      213: 2292413704821605494
+    second: albedo_10
   - first:
-      213: -189419392851352084
-    second: idle_11
+      213: -985495124647771453
+    second: albedo_11
   - first:
-      213: 2253685004373748758
-    second: idle_12
+      213: 8431565290195318048
+    second: albedo_12
   - first:
-      213: 275251749332817211
-    second: idle_13
+      213: -2479286325154785556
+    second: albedo_13
   - first:
-      213: -2717920588507469212
-    second: idle_14
+      213: 390303489920511409
+    second: albedo_14
   - first:
-      213: -928564814986837825
-    second: idle_15
+      213: 556692577551919769
+    second: albedo_15
   - first:
-      213: 1047728824233847905
-    second: idle_16
+      213: -4139418896225901752
+    second: albedo_16
   - first:
-      213: -526835129060445694
-    second: idle_17
+      213: 5383643677969624123
+    second: albedo_17
   - first:
-      213: 5896261190451672117
-    second: idle_18
+      213: 6002308883253483382
+    second: albedo_18
   - first:
-      213: -8256383322693916834
-    second: idle_19
+      213: -5883791521453054658
+    second: albedo_19
   - first:
-      213: -8410472694813616623
-    second: idle_20
+      213: -6749137668762983786
+    second: albedo_20
   - first:
-      213: -3655621501393774895
-    second: idle_21
+      213: 1383225956470405829
+    second: albedo_21
   - first:
-      213: -3185995270805410201
-    second: idle_22
+      213: 2583154143665232614
+    second: albedo_22
   - first:
-      213: -6334799096112948352
-    second: idle_23
+      213: -1667942218615460214
+    second: albedo_23
   - first:
-      213: -2134340880611598165
-    second: idle_24
+      213: 6771426529672149744
+    second: albedo_24
   - first:
-      213: -2151818530499332596
-    second: idle_25
+      213: 6811239546211226586
+    second: albedo_25
   - first:
-      213: 3051071556821484571
-    second: idle_26
+      213: 8104441785823279773
+    second: albedo_26
   - first:
-      213: -5705869721440319331
-    second: idle_27
+      213: 3767507891541267651
+    second: albedo_27
   - first:
-      213: 7168834123846226226
-    second: idle_28
+      213: 3562965467720769136
+    second: albedo_28
   - first:
-      213: -5112156401277642946
-    second: idle_29
+      213: 6536915446822633114
+    second: albedo_29
   - first:
-      213: -4904485453230194659
-    second: idle_30
+      213: 7562914230033705565
+    second: albedo_30
   - first:
-      213: 929150727014594773
-    second: idle_31
+      213: 5306904838479804599
+    second: albedo_31
   - first:
-      213: -8898634129254946022
-    second: idle_32
+      213: 2409993040945579457
+    second: albedo_32
   - first:
-      213: -1574576503455686002
-    second: idle_33
+      213: 3646563613243801777
+    second: albedo_33
   - first:
-      213: 6367498201634126667
-    second: idle_34
+      213: 453942397983392450
+    second: albedo_34
   - first:
-      213: -7207429827535173402
-    second: idle_35
+      213: 1823706432863123902
+    second: albedo_35
   - first:
-      213: -8215856964752772259
-    second: idle_36
+      213: 6409692634756801501
+    second: albedo_36
   - first:
-      213: -6871614914986685141
-    second: idle_37
+      213: -6059501479026312166
+    second: albedo_37
   - first:
-      213: 532023552575573989
-    second: idle_38
+      213: -5507814254936262411
+    second: albedo_38
   - first:
-      213: -3490280450085971560
-    second: idle_39
+      213: 6009322829260015377
+    second: albedo_39
   - first:
-      213: 2973940874069163354
-    second: idle_40
+      213: 612139902920019695
+    second: albedo_40
   - first:
-      213: -3547867813687463170
-    second: idle_41
+      213: 7520715346623844642
+    second: albedo_41
   - first:
-      213: 3838556530734163676
-    second: idle_42
+      213: -7101061018012164390
+    second: albedo_42
   - first:
-      213: -1499976257121873182
-    second: idle_43
+      213: 1485782480496781328
+    second: albedo_43
   - first:
-      213: 168846979551174993
-    second: idle_44
+      213: 6796421885783598476
+    second: albedo_44
   - first:
-      213: 1848214276972832728
-    second: idle_45
+      213: 7955773882952123728
+    second: albedo_45
   - first:
-      213: -5438464607267775908
-    second: idle_46
+      213: -5835439379068691578
+    second: albedo_46
   - first:
-      213: -2162490490912676814
-    second: idle_47
+      213: 1727129287335381475
+    second: albedo_47
+  - first:
+      213: 4443212937699163334
+    second: albedo_48
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -186,7 +189,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -233,18 +236,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -260,7 +251,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: albedo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -268,20 +259,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d55ed543f8490a70800000000000000
-      internalID: 8793639957104055765
+      spriteID: 544ce6e1700dcb9b0800000000000000
+      internalID: -5062943152077355963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: albedo_1
       rect:
         serializedVersion: 2
         x: 320
@@ -289,20 +280,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 103de827293c17450800000000000000
-      internalID: 6084859605308855041
+      spriteID: 52f23d841856209e0800000000000000
+      internalID: -1656650106971934939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: albedo_2
       rect:
         serializedVersion: 2
         x: 640
@@ -310,20 +301,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30c6f3402f456770800000000000000
-      internalID: 8603369663158992956
+      spriteID: acf8f26455e1cd760800000000000000
+      internalID: 7483890032381497290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: albedo_3
       rect:
         serializedVersion: 2
         x: 960
@@ -331,20 +322,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a90b6cc3d280ea0800000000000000
-      internalID: -5906421172241655209
+      spriteID: 06e26054a54460c80800000000000000
+      internalID: -8356916904043598240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: albedo_4
       rect:
         serializedVersion: 2
         x: 1280
@@ -352,20 +343,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c70460ff3c2a2f40800000000000000
-      internalID: 5704420531145803721
+      spriteID: 7b6c586ccc3e641a0800000000000000
+      internalID: -6825517716589918537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_5
+      name: albedo_5
       rect:
         serializedVersion: 2
         x: 1600
@@ -373,20 +364,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a21d340f8100fdf0800000000000000
-      internalID: -148617073940163930
+      spriteID: 6c0d9b3ece45f25b0800000000000000
+      internalID: -5390996852529573690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: albedo_6
       rect:
         serializedVersion: 2
         x: 1920
@@ -394,20 +385,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7a79719cfe2a140800000000000000
-      internalID: 4729606205655721961
+      spriteID: e6b723ab6f09aa410800000000000000
+      internalID: 1489162016159595374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_7
+      name: albedo_7
       rect:
         serializedVersion: 2
         x: 0
@@ -415,20 +406,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56cdbd6c2ac833e0800000000000000
-      internalID: -2073685336235588006
+      spriteID: a4ace5d4f8aba0350800000000000000
+      internalID: 5983800179556272714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_8
+      name: albedo_8
       rect:
         serializedVersion: 2
         x: 320
@@ -436,20 +427,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a057a02b0dd1700800000000000000
-      internalID: 512795395688303107
+      spriteID: 6ce18271dea7e8840800000000000000
+      internalID: 5228251376138067654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_9
+      name: albedo_9
       rect:
         serializedVersion: 2
         x: 640
@@ -457,20 +448,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a31e48e77f7ae40800000000000000
-      internalID: 5667770778836351527
+      spriteID: c25c45386807fd5d0800000000000000
+      internalID: -3035583900793125588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_10
+      name: albedo_10
       rect:
         serializedVersion: 2
         x: 960
@@ -478,20 +469,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ccd1890efa47be0800000000000000
-      internalID: -1480364998338425778
+      spriteID: 674012a6e1a40df10800000000000000
+      internalID: 2292413704821605494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_11
+      name: albedo_11
       rect:
         serializedVersion: 2
         x: 1280
@@ -499,20 +490,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce56687d01c0f5df0800000000000000
-      internalID: -189419392851352084
+      spriteID: 3c28d7fc761d252f0800000000000000
+      internalID: -985495124647771453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_12
+      name: albedo_12
       rect:
         serializedVersion: 2
         x: 1600
@@ -520,20 +511,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c62592292b64f10800000000000000
-      internalID: 2253685004373748758
+      spriteID: 025fa9685ffe20570800000000000000
+      internalID: 8431565290195318048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_13
+      name: albedo_13
       rect:
         serializedVersion: 2
         x: 1920
@@ -541,20 +532,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3599c6f104e1d300800000000000000
-      internalID: 275251749332817211
+      spriteID: ce65aac193ec79dd0800000000000000
+      internalID: -2479286325154785556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_14
+      name: albedo_14
       rect:
         serializedVersion: 2
         x: 0
@@ -562,20 +553,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46aaa4aff91084ad0800000000000000
-      internalID: -2717920588507469212
+      spriteID: 1bdae47c4f2aa6500800000000000000
+      internalID: 390303489920511409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_15
+      name: albedo_15
       rect:
         serializedVersion: 2
         x: 320
@@ -583,20 +574,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb088c378331d13f0800000000000000
-      internalID: -928564814986837825
+      spriteID: 99a241623f4c9b700800000000000000
+      internalID: 556692577551919769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_16
+      name: albedo_16
       rect:
         serializedVersion: 2
         x: 640
@@ -604,20 +595,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c656580d74a8e00800000000000000
-      internalID: 1047728824233847905
+      spriteID: 8436ae90274dd86c0800000000000000
+      internalID: -4139418896225901752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_17
+      name: albedo_17
       rect:
         serializedVersion: 2
         x: 960
@@ -625,20 +616,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 202b72dcd3e40b8f0800000000000000
-      internalID: -526835129060445694
+      spriteID: b3c28aeb66b86ba40800000000000000
+      internalID: 5383643677969624123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_18
+      name: albedo_18
       rect:
         serializedVersion: 2
         x: 1280
@@ -646,20 +637,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5343bcf105ab3d150800000000000000
-      internalID: 5896261190451672117
+      spriteID: 677de72b02c7c4350800000000000000
+      internalID: 6002308883253483382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_19
+      name: albedo_19
       rect:
         serializedVersion: 2
         x: 1600
@@ -667,20 +658,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e57ae59bc1f6b6d80800000000000000
-      internalID: -8256383322693916834
+      spriteID: e35e55fe8c2985ea0800000000000000
+      internalID: -5883791521453054658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_20
+      name: albedo_20
       rect:
         serializedVersion: 2
         x: 1920
@@ -688,20 +679,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116138805aff74b80800000000000000
-      internalID: -8410472694813616623
+      spriteID: 692ac297c0f3652a0800000000000000
+      internalID: -6749137668762983786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_21
+      name: albedo_21
       rect:
         serializedVersion: 2
         x: 0
@@ -709,20 +700,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6d420ec9f944dc0800000000000000
-      internalID: -3655621501393774895
+      spriteID: 5cab483cda4323310800000000000000
+      internalID: 1383225956470405829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_22
+      name: albedo_22
       rect:
         serializedVersion: 2
         x: 320
@@ -730,20 +721,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76ea19b6e2219c3d0800000000000000
-      internalID: -3185995270805410201
+      spriteID: 6ea9e3de10539d320800000000000000
+      internalID: 2583154143665232614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_23
+      name: albedo_23
       rect:
         serializedVersion: 2
         x: 640
@@ -751,20 +742,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08bd8b809c54618a0800000000000000
-      internalID: -6334799096112948352
+      spriteID: a8e6c89a3674ad8e0800000000000000
+      internalID: -1667942218615460214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_24
+      name: albedo_24
       rect:
         serializedVersion: 2
         x: 960
@@ -772,20 +763,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba02d8df64c4162e0800000000000000
-      internalID: -2134340880611598165
+      spriteID: 0fab3cb5d80f8fd50800000000000000
+      internalID: 6771426529672149744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_25
+      name: albedo_25
       rect:
         serializedVersion: 2
         x: 1280
@@ -793,20 +784,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c06fb7482743322e0800000000000000
-      internalID: -2151818530499332596
+      spriteID: ad35300a742668e50800000000000000
+      internalID: 6811239546211226586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_26
+      name: albedo_26
       rect:
         serializedVersion: 2
         x: 1600
@@ -814,20 +805,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1484a86a65975a20800000000000000
-      internalID: 3051071556821484571
+      spriteID: d9a34d27dd2c87070800000000000000
+      internalID: 8104441785823279773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_27
+      name: albedo_27
       rect:
         serializedVersion: 2
         x: 1920
@@ -835,20 +826,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9884e628bda0d0b0800000000000000
-      internalID: -5705869721440319331
+      spriteID: 3c45ccb5770e84430800000000000000
+      internalID: 3767507891541267651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_28
+      name: albedo_28
       rect:
         serializedVersion: 2
         x: 0
@@ -856,20 +847,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2319d8d47a0dc7360800000000000000
-      internalID: 7168834123846226226
+      spriteID: 07eda7a2732327130800000000000000
+      internalID: 3562965467720769136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_29
+      name: albedo_29
       rect:
         serializedVersion: 2
         x: 320
@@ -877,20 +868,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e375b91a6d8fd09b0800000000000000
-      internalID: -5112156401277642946
+      spriteID: a9e70aef6f9c7ba50800000000000000
+      internalID: 6536915446822633114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_30
+      name: albedo_30
       rect:
         serializedVersion: 2
         x: 640
@@ -898,20 +889,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d10c4222774cfebb0800000000000000
-      internalID: -4904485453230194659
+      spriteID: d5ae7e31c6ed4f860800000000000000
+      internalID: 7562914230033705565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_31
+      name: albedo_31
       rect:
         serializedVersion: 2
         x: 960
@@ -919,20 +910,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d83082d9a105ec00800000000000000
-      internalID: 929150727014594773
+      spriteID: 7b8f36a55d9e5a940800000000000000
+      internalID: 5306904838479804599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_32
+      name: albedo_32
       rect:
         serializedVersion: 2
         x: 1280
@@ -940,20 +931,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1b679b0863b18480800000000000000
-      internalID: -8898634129254946022
+      spriteID: 1c589bce6e3027120800000000000000
+      internalID: 2409993040945579457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_33
+      name: albedo_33
       rect:
         serializedVersion: 2
         x: 1600
@@ -961,20 +952,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e82e8d7330bf52ae0800000000000000
-      internalID: -1574576503455686002
+      spriteID: 1b0034239423b9230800000000000000
+      internalID: 3646563613243801777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_34
+      name: albedo_34
       rect:
         serializedVersion: 2
         x: 1920
@@ -982,20 +973,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b3750c0e5ed5850800000000000000
-      internalID: 6367498201634126667
+      spriteID: 2c20a44b43abc4600800000000000000
+      internalID: 453942397983392450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_35
+      name: albedo_35
       rect:
         serializedVersion: 2
         x: 0
@@ -1003,20 +994,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8063a22c01afb90800000000000000
-      internalID: -7207429827535173402
+      spriteID: eb9b669965b1f4910800000000000000
+      internalID: 1823706432863123902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_36
+      name: albedo_36
       rect:
         serializedVersion: 2
         x: 320
@@ -1024,20 +1015,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d53fd7abe996bfd80800000000000000
-      internalID: -8215856964752772259
+      spriteID: dd3ed16cd7dc3f850800000000000000
+      internalID: 6409692634756801501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_37
+      name: albedo_37
       rect:
         serializedVersion: 2
         x: 640
@@ -1045,20 +1036,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2d41f664ae13a0a0800000000000000
-      internalID: -6871614914986685141
+      spriteID: a1cbeaa628358eba0800000000000000
+      internalID: -6059501479026312166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_38
+      name: albedo_38
       rect:
         serializedVersion: 2
         x: 960
@@ -1066,20 +1057,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef886f2a90226700800000000000000
-      internalID: 532023552575573989
+      spriteID: 5f8f0b5ed105093b0800000000000000
+      internalID: -5507814254936262411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_39
+      name: albedo_39
       rect:
         serializedVersion: 2
         x: 1280
@@ -1087,20 +1078,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89992264c68009fc0800000000000000
-      internalID: -3490280450085971560
+      spriteID: 11740b24647656350800000000000000
+      internalID: 6009322829260015377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_40
+      name: albedo_40
       rect:
         serializedVersion: 2
         x: 1600
@@ -1108,20 +1099,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5d38e5e77f854920800000000000000
-      internalID: 2973940874069163354
+      spriteID: feec36a9ff1ce7800800000000000000
+      internalID: 612139902920019695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_41
+      name: albedo_41
       rect:
         serializedVersion: 2
         x: 1920
@@ -1129,20 +1120,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2fd17550173cec0800000000000000
-      internalID: -3547867813687463170
+      spriteID: 221d754e2c2fe5860800000000000000
+      internalID: 7520715346623844642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_42
+      name: albedo_42
       rect:
         serializedVersion: 2
         x: 0
@@ -1150,20 +1141,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd66aa0c3da454530800000000000000
-      internalID: 3838556530734163676
+      spriteID: aded20d80a6f37d90800000000000000
+      internalID: -7101061018012164390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_43
+      name: albedo_43
       rect:
         serializedVersion: 2
         x: 320
@@ -1171,20 +1162,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e21bb69a830f2be0800000000000000
-      internalID: -1499976257121873182
+      spriteID: 01862834b4f8e9410800000000000000
+      internalID: 1485782480496781328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_44
+      name: albedo_44
       rect:
         serializedVersion: 2
         x: 640
@@ -1192,20 +1183,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151ab8dee6dd75200800000000000000
-      internalID: 168846979551174993
+      spriteID: c8562d532bdb15e50800000000000000
+      internalID: 6796421885783598476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_45
+      name: albedo_45
       rect:
         serializedVersion: 2
         x: 960
@@ -1213,20 +1204,20 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d765c7b71d26a910800000000000000
-      internalID: 1848214276972832728
+      spriteID: 05501bee136986e60800000000000000
+      internalID: 7955773882952123728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_46
+      name: albedo_46
       rect:
         serializedVersion: 2
         x: 1280
@@ -1234,35 +1225,35 @@ TextureImporter:
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a15400141b684b0800000000000000
-      internalID: -5438464607267775908
+      spriteID: 68bd84e5dca540fa0800000000000000
+      internalID: -5835439379068691578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_47
+      name: albedo_47
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 1601
         y: 0
         width: 320
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2346dfa1b5a4df1e0800000000000000
-      internalID: -2162490490912676814
+      spriteID: 3e98cc4afeef7f710800000000000000
+      internalID: 1727129287335381475
       vertices: []
       indices: 
       edges: []
