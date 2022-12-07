@@ -47,6 +47,15 @@ public class Player : MonoBehaviour
         Jump();
         Use();
 
+        if (isGrounded == false || rb.velocity.y != 0)
+        {
+            animator.SetBool("isJump", true);
+        }
+        else
+        {
+            animator.SetBool("isJump", false);
+        }
+
 
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -76,7 +85,6 @@ public class Player : MonoBehaviour
             sr.flipX = moveInput < 0 ? true : false;
             rb.velocity = new Vector2((speed * moveInput), rb.velocity.y);
             animator.SetBool("isRun", true);
-            Debug.Log(animator.GetBool("isRun"));
         }
         else
         {
@@ -93,6 +101,8 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && (extraJumps > 0 || isGrounded == true))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetTrigger("jumpIn");
+            
             extraJumps--;
         }
 
@@ -100,6 +110,9 @@ public class Player : MonoBehaviour
         {
             extraJumps = extraJumpsValue;
         }
+
+
+
     }
 
     private void OnDrawGizmosSelected()
