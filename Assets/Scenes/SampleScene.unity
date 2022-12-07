@@ -22876,6 +22876,7 @@ GameObject:
   - component: {fileID: 583932591}
   - component: {fileID: 583932595}
   - component: {fileID: 583932596}
+  - component: {fileID: 583932597}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -22989,7 +22990,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583932590}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.85, y: -0.25, z: -2.9934542}
+  m_LocalPosition: {x: -5.09, y: -0.28, z: -2.993454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 665848185}
@@ -23043,6 +23044,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &583932597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583932590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778bd2faa9faf3a4cb6c7d049f9fb197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 0}
+  animator: {fileID: 0}
+  useZone: {fileID: 0}
+  useZoneRange: 0
+  useLayers:
+    m_Bits: 0
+  groundCheck: {fileID: 0}
+  groundLayer:
+    m_Bits: 0
+  groundCheckRadius: 0
+  extraJumps: 0
+  extraJumpsValue: 0
+  speed: 0
+  jumpForce: 0
+  playerObject: 0
+  platformObject: 0
+  m_animator: {fileID: 0}
 --- !u!1 &631936476
 GameObject:
   m_ObjectHideFlags: 0
