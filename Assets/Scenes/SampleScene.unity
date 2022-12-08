@@ -1225,7 +1225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376987627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1495059226}
@@ -23023,8 +23023,8 @@ MonoBehaviour:
     m_Bits: 384
   groundCheckRadius: 0.32
   extraJumpsValue: 1
-  speed: 10
   jumpForce: 10
+  speed: 10
 --- !u!95 &583932596
 Animator:
   serializedVersion: 3
@@ -23056,23 +23056,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 778bd2faa9faf3a4cb6c7d049f9fb197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sr: {fileID: 0}
-  animator: {fileID: 0}
-  useZone: {fileID: 0}
-  useZoneRange: 0
-  useLayers:
-    m_Bits: 0
-  groundCheck: {fileID: 0}
-  groundLayer:
-    m_Bits: 0
-  groundCheckRadius: 0
-  extraJumps: 0
-  extraJumpsValue: 0
-  speed: 0
-  jumpForce: 0
-  playerObject: 0
-  platformObject: 0
-  m_animator: {fileID: 0}
 --- !u!1 &631936476
 GameObject:
   m_ObjectHideFlags: 0
