@@ -5,67 +5,52 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    private SpriteRenderer sr;
-    private Animator animator;
+    //глобальные переменные
+    private Rigidbody2D m_rigidBody;
+    private SpriteRenderer m_spriteRenderer;
+    private Animator m_animator;
 
-    [SerializeField] private Transform useZone;
+    //переменные для использования предметов
+    [SerializeField] private Transform useZone; 
     [SerializeField] private float useZoneRange;
     [SerializeField] private LayerMask useLayers;
 
-
-
-    bool isGrounded;
+    //переменные для прыжка
+    private bool m_isGrounded;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float groundCheckRadius;
-    private int extraJumps;
+    private int m_extraJumps;
     [SerializeField] private int extraJumpsValue;
-
-    [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
 
+    //переменные для движения
+    private float m_moveInput; //если 1 двигаемся вправо, если -1 влево
+    [SerializeField] private float speed;
 
-    private float moveInput; //если 1 двигаемся вправо, если -1 влево
+    //перменные для платформ
+    private int m_playerObject;
+    private int m_platformObject;
 
-    private int playerObject;
-    private int platformObject;
     void Start()
     {
-        rb=GetComponent<Rigidbody2D>();
-        sr=GetComponent<SpriteRenderer>();
-        extraJumps = extraJumpsValue;
-        playerObject = LayerMask.NameToLayer("Player");
-        platformObject = LayerMask.NameToLayer("Platform");
-        animator = GetComponent<Animator>();
+        m_rigidBody=GetComponent<Rigidbody2D>();
+        m_spriteRenderer=GetComponent<SpriteRenderer>();
+        m_extraJumps = extraJumpsValue;
+        m_playerObject = LayerMask.NameToLayer("Player");
+        m_platformObject = LayerMask.NameToLayer("Platform");
+        m_animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
         Jump();
         Use();
-
-        if (isGrounded == false || rb.velocity.y != 0)
-        {
-            animator.SetBool("isJump", true);
-        }
-        else
-        {
-            animator.SetBool("isJump", false);
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            Physics2D.IgnoreLayerCollision(playerObject, platformObject, true);
-            Invoke("IgnoreLayerOff", 0.5f);
-        }
-
+        PlatformJump();
     }
 
-    private void Use()
+    private void Use() //использование предметов (сейчас только двери)
     {
         if(Input.GetKeyDown(KeyCode.E))
            { 
@@ -77,52 +62,66 @@ public class Player : MonoBehaviour
            }
 
     }
-    private void Move()
+    private void Move() //передвижение
     {
-        moveInput = Input.GetAxis("Horizontal");
-        if(moveInput != 0)
+        m_moveInput = Input.GetAxis("Horizontal");
+        if(m_moveInput != 0)
         { 
-            sr.flipX = moveInput < 0 ? true : false;
-            rb.velocity = new Vector2((speed * moveInput), rb.velocity.y);
-            animator.SetBool("isRun", true);
+            m_spriteRenderer.flipX = m_moveInput < 0 ? true : false;
+            m_rigidBody.velocity = new Vector2((speed * m_moveInput), m_rigidBody.velocity.y);
+            m_animator.SetBool("isRun", true);
         }
         else
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-            animator.SetBool("isRun", false);
+            m_rigidBody.velocity = new Vector2(0, m_rigidBody.velocity.y);
+            m_animator.SetBool("isRun", false);
         }
     }
 
-    void Jump()
+    void Jump() // прыжок
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        animator.SetBool("isGround", isGrounded);
+        m_isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        m_animator.SetBool("isGround", m_isGrounded);
 
-        if (Input.GetButtonDown("Jump") && (extraJumps > 0 || isGrounded == true))
+        if (Input.GetButtonDown("Jump") && (m_extraJumps > 0 || m_isGrounded == true))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetTrigger("jumpIn");
-            
-            extraJumps--;
+            m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x, jumpForce);
+            m_animator.SetTrigger("jumpIn");
+            if (m_isGrounded == false)
+            {
+                m_extraJumps--;
+            } 
         }
 
-        if (isGrounded == true)
+        if (m_isGrounded &&m_rigidBody.velocity.y==0)
         {
-            extraJumps = extraJumpsValue;
+            m_extraJumps = extraJumpsValue;
+            m_animator.SetBool("isJump", false);
+            Debug.Log("jump false");
         }
-
-
-
+        if (!m_isGrounded || m_rigidBody.velocity.y != 0)
+        {
+            m_animator.SetBool("isJump", true);
+            Debug.Log("jump true");
+        }
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected() //отрисовка области (для дебага)
     {
         if (groundCheck == null)
             return;
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
-    void IgnoreLayerOff()
+    void PlatformJump()//прыжок с платформы
     {
-        Physics2D.IgnoreLayerCollision(playerObject, platformObject, false);
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Physics2D.IgnoreLayerCollision(m_playerObject, m_platformObject, true);
+            Invoke("IgnoreLayerOff", 0.5f);
+        }
+    }    
+    void IgnoreLayerOff()//выключение игнора слоёвв (сейчас только для платформы)
+    {
+        Physics2D.IgnoreLayerCollision(m_playerObject, m_platformObject, false);
     }
 }
