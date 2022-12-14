@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     private Animator m_animator;
 
     //переменные для использования предметов
-    [SerializeField] private Transform useZone; 
+    [SerializeField] private Transform useZone;
     [SerializeField] private float useZoneRange;
     [SerializeField] private LayerMask useLayers;
 
@@ -34,8 +34,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        m_rigidBody=GetComponent<Rigidbody2D>();
-        m_spriteRenderer=GetComponent<SpriteRenderer>();
+        m_rigidBody = GetComponent<Rigidbody2D>();
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
         m_extraJumps = extraJumpsValue;
         m_playerObject = LayerMask.NameToLayer("Player");
         m_platformObject = LayerMask.NameToLayer("Platform");
@@ -52,21 +52,21 @@ public class Player : MonoBehaviour
 
     private void Use() //использование предметов (сейчас только двери)
     {
-        if(Input.GetKeyDown(KeyCode.E))
-           { 
-             Collider2D[] useItems=Physics2D.OverlapCircleAll(useZone.position,useZoneRange, useLayers);
-             foreach(Collider2D item in useItems)
-             {
-                item.GetComponent<Door>().Use();
-             }
-           }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Collider2D[] useItems = Physics2D.OverlapCircleAll(useZone.position, useZoneRange, useLayers);
+            foreach (Collider2D item in useItems)
+            {
+                item.gameObject.SendMessage("Use");
+            }
+        }
 
     }
     private void Move() //передвижение
     {
         m_moveInput = Input.GetAxis("Horizontal");
-        if(m_moveInput != 0)
-        { 
+        if (m_moveInput != 0)
+        {
             m_spriteRenderer.flipX = m_moveInput < 0 ? true : false;
             m_rigidBody.velocity = new Vector2((speed * m_moveInput), m_rigidBody.velocity.y);
             m_animator.SetBool("isRun", true);
@@ -90,19 +90,17 @@ public class Player : MonoBehaviour
             if (m_isGrounded == false)
             {
                 m_extraJumps--;
-            } 
+            }
         }
 
-        if (m_isGrounded &&m_rigidBody.velocity.y==0)
+        if (m_isGrounded && m_rigidBody.velocity.y == 0)
         {
             m_extraJumps = extraJumpsValue;
             m_animator.SetBool("isJump", false);
-            Debug.Log("jump false");
         }
         if (!m_isGrounded || m_rigidBody.velocity.y != 0)
         {
             m_animator.SetBool("isJump", true);
-            Debug.Log("jump true");
         }
     }
 
@@ -119,7 +117,7 @@ public class Player : MonoBehaviour
             Physics2D.IgnoreLayerCollision(m_playerObject, m_platformObject, true);
             Invoke("IgnoreLayerOff", 0.5f);
         }
-    }    
+    }
     void IgnoreLayerOff()//выключение игнора слоёвв (сейчас только для платформы)
     {
         Physics2D.IgnoreLayerCollision(m_playerObject, m_platformObject, false);
