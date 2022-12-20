@@ -32,6 +32,12 @@ public class Player : MonoBehaviour
     private int m_playerObject;
     private int m_platformObject;
 
+    //переменные для атаки
+    public int damage = 20;
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+
     void Start()
     {
         m_rigidBody = GetComponent<Rigidbody2D>();
@@ -48,20 +54,15 @@ public class Player : MonoBehaviour
         Jump();
         Use();
         PlatformJump();
-    }
 
-    private void Use() //использование предметов (сейчас только двери)
-    {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            Collider2D[] useItems = Physics2D.OverlapCircleAll(useZone.position, useZoneRange, useLayers);
-            foreach (Collider2D item in useItems)
-            {
-                item.gameObject.SendMessage("Use");
-            }
+            Attack();
         }
-
     }
+
+
+   
     private void Move() //передвижение
     {
         m_moveInput = Input.GetAxis("Horizontal");
@@ -104,12 +105,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected() //отрисовка области (для дебага)
-    {
-        if (groundCheck == null)
-            return;
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-    }
+
     void PlatformJump()//прыжок с платформы
     {
         if (Input.GetKeyDown(KeyCode.S))
@@ -122,4 +118,42 @@ public class Player : MonoBehaviour
     {
         Physics2D.IgnoreLayerCollision(m_playerObject, m_platformObject, false);
     }
-}
+
+    private void Use() //вызов метода use() у предметов из области пересечения
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Collider2D[] useItems = Physics2D.OverlapCircleAll(useZone.position, useZoneRange, useLayers);
+            foreach (Collider2D item in useItems)
+            {
+                item.gameObject.SendMessage("Use");
+            }
+        }
+
+    }
+
+    void Attack()
+    {
+        m_animator.SetTrigger("attack");
+
+        Collider2D[]hitEnemies=Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
+
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<Enemy>().TakeDamage(damage);
+        }
+    }
+
+
+    //debug
+    private void OnDrawGizmosSelected() //отрисовка области (для дебага) groundCheck
+    {
+        if (groundCheck == null)
+            return;
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+
+        if (attackPoint == null)
+            return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    }
