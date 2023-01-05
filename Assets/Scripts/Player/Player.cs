@@ -68,7 +68,15 @@ public class Player : MonoBehaviour
         m_moveInput = Input.GetAxis("Horizontal");
         if (m_moveInput != 0)
         {
-            m_spriteRenderer.flipX = m_moveInput < 0 ? true : false;
+            if (m_moveInput < 0)
+            {
+                transform.rotation = new Quaternion (transform.rotation.x, 180, transform.rotation.z, transform.rotation.w);
+            }
+            if(m_moveInput > 0)
+            {
+                transform.rotation = new Quaternion(transform.rotation.x, 0, transform.rotation.z, transform.rotation.w);
+            }
+            //m_spriteRenderer.flipX = m_moveInput < 0 ? true : false;
             m_rigidBody.velocity = new Vector2((speed * m_moveInput), m_rigidBody.velocity.y);
             m_animator.SetBool("isRun", true);
         }
